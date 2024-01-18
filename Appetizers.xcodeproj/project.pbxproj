@@ -17,6 +17,8 @@
 		361192AE2B5844FB00AA5FDF /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361192AD2B5844FB00AA5FDF /* AppetizerListView.swift */; };
 		361192B02B58450600AA5FDF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361192AF2B58450600AA5FDF /* AccountView.swift */; };
 		361192B22B58456300AA5FDF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361192B12B58456300AA5FDF /* OrderView.swift */; };
+		36309BC72B594C2C00E87606 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36309BC62B594C2C00E87606 /* NetworkManager.swift */; };
+		36309BC92B594F4D00E87606 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36309BC82B594F4D00E87606 /* APError.swift */; };
 		36930A2C2B5866B70074A56E /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36930A2B2B5866B70074A56E /* Appetizer.swift */; };
 		36930A302B586FA90074A56E /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36930A2F2B586FA90074A56E /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		361192AD2B5844FB00AA5FDF /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		361192AF2B58450600AA5FDF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		361192B12B58456300AA5FDF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		36309BC62B594C2C00E87606 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		36309BC82B594F4D00E87606 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		36930A2B2B5866B70074A56E /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		36930A2F2B586FA90074A56E /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +117,8 @@
 				361192B12B58456300AA5FDF /* OrderView.swift */,
 				36930A2B2B5866B70074A56E /* Appetizer.swift */,
 				36930A2F2B586FA90074A56E /* AppetizerListCell.swift */,
+				36309BC62B594C2C00E87606 /* NetworkManager.swift */,
+				36309BC82B594F4D00E87606 /* APError.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -273,9 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				36930A2C2B5866B70074A56E /* Appetizer.swift in Sources */,
+				36309BC92B594F4D00E87606 /* APError.swift in Sources */,
 				36930A302B586FA90074A56E /* AppetizerListCell.swift in Sources */,
 				361192B02B58450600AA5FDF /* AccountView.swift in Sources */,
 				361192862B58439200AA5FDF /* AppetizerTabView.swift in Sources */,
+				36309BC72B594C2C00E87606 /* NetworkManager.swift in Sources */,
 				361192842B58439200AA5FDF /* AppetizersApp.swift in Sources */,
 				361192AE2B5844FB00AA5FDF /* AppetizerListView.swift in Sources */,
 				361192B22B58456300AA5FDF /* OrderView.swift in Sources */,
